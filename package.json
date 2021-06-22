@@ -1,0 +1,16 @@
+{
+  "name": "www-authenticate",
+  "version": "0.0.0-a.1",
+  "description": "Playing around with WWW-Authenticate",
+  "license": "UNLICENSED",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "run": "node gateway.js"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1"
+  }
+}
